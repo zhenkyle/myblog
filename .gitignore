@@ -2,5 +2,6 @@ build
 bin
 .bundle
 *.DS_Store
-/css/*
-/bower_components/*
+src/css/*
+src/bower_components/*
+src/node_modules/*
