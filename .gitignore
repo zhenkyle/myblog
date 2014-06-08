@@ -4,4 +4,4 @@ bin
 *.DS_Store
 src/css/*
 src/bower_components/*
-src/node_modules/*
+node_modules/*
