@@ -1,1 +1,6 @@
 build
+bin
+.bundle
+*.DS_Store
+/css/*
+/bower_components/*
