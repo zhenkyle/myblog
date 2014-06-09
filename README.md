@@ -54,7 +54,24 @@ git clone git@github.com:zhenkyle/myblog.git
 
 ```
 cd myblog
+npm install
+bower install
 bundle install --binstubs
 bin/jekyll -v #2.0.3
 bin/foundation version #1.0.4
+```
+
+### Start developing enviroment
+
+build scss and watch for change
+
+```
+grunt
+```
+
+in another console, start jekyll serve and watch for change
+
+
+```
+jekyll serve -w
 ```
