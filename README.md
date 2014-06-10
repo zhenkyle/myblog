@@ -75,3 +75,19 @@ in another console, start jekyll serve and watch for change
 ```
 jekyll serve -w
 ```
+
+
+### Deloyment
+
+I use git user Page to deploy, here are two simple rake tasks.
+
+#### Setup deloy enviroment
+
+```
+rake setup
+```
+
+#### Deploy to git user page
+```
+rake deploy
+```
