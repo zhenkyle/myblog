@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>zhenke blog</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="site-title" href="/">zhenke blog</a>
+        <nav>
+          <div>
+            <a class="page-link" href="/about/">About</a>
+            <a class="page-link" href="/feed.xml"></a>
+            <a class="page-link" href="/"></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+        <div class="home">
+          <h1>Posts</h1>
+          <ul class="posts">
+            <li>
+              <span class="post-date">Mar 24, 2014</span>
+              <a class="post-link" href="/tools/2014/03/24/virtualbox-smbus-error/">VirtualBox SMBus error</a>
+            </li>
+      
+            <li>
+              <span class="post-date">Mar 24, 2014</span>
+              <a class="post-link" href="/tools/2014/03/24/portable-virtualbox/">Portable VirtualBox</a>
+            </li>
+      
+            <li>
+              <span class="post-date">Mar 4, 2014</span>
+              <a class="post-link" href="/javaee/2014/03/04/tomcat-manager-user/">Tomcat 控制台用户设置</a>
+            </li>
+      
+            <li>
+              <span class="post-date">Mar 4, 2014</span>
+              <a class="post-link" href="/javaee/2014/03/04/javaee-develop-environment-setup/">Jave EE 开发环境配置</a>
+            </li>
+          
+            <li>
+              <span class="post-date">Jan 7, 2014</span>
+              <a class="post-link" href="/openwrt/2014/01/07/openwrt-in-wr3420/">TL-MR3420刷openwrt固件笔记</a>
+            </li>
+          
+            <li>
+              <span class="post-date">Dec 27, 2013</span>
+              <a class="post-link" href="/openwrt/2013/12/27/openwrt-in-wr703n/">如何用wr703n刷openwrt固件实现迅雷离线下载器</a>
+            </li>
+          
+            <li>
+              <span class="post-date">Dec 27, 2013</span>
+              <a class="post-link" href="/jekyll/2013/12/27/first-post/">It works!</a>
+            </li>
+          </ul>
+
+          <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <h2 class="footer-heading">zhenke blog</h2>
+        <div class="footer-col-1 column">
+          <ul>
+            <li>zhenke blog</li>
+            <li><a href="mailto:zhenkyle@gmail.com">zhenkyle@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-2 column">
+          <ul>
+            <li>
+              <a href="https://github.com/">github</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">twitter</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col-3 column">
+          <p class="text">This my awesome blog.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

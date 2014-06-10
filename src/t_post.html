@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>zhenke blog</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="site-title" href="/">zhenke blog</a>
+        <nav>
+          <div>
+            <a class="page-link" href="/about/">About</a>
+            <a class="page-link" href="/feed.xml"></a>
+            <a class="page-link" href="/"></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+        <div class="post">
+
+          <header class="post-header">
+            <h1>Tomcat 控制台用户设置</h1>
+            <p class="meta">Mar 4, 2014</p>
+          </header>
+
+          <article class="post-content">
+            <p>登录Tomcat控制台“Manager App”，需要输入用户名、密码</p>
+            <p>设置方法如下，编辑conf\tomcat-users.xml</p>
+
+            <div class="highlight"><pre><code class="xml"><span class="nt">&lt;tomcat-users&gt;</span>
+            <span class="nt">&lt;role</span> <span class="na">rolename=</span><span class="s">&quot;manager-gui&quot;</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;user</span> <span class="na">username=</span><span class="s">&quot;tomcat&quot;</span> <span class="na">password=</span><span class="s">&quot;zhenke1979&quot;</span> <span class="na">roles=</span><span class="s">&quot;manager-gui&quot;</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/tomcat-users&gt;</span></code></pre></div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <h2 class="footer-heading">zhenke blog</h2>
+        <div class="footer-col-1 column">
+          <ul>
+            <li>zhenke blog</li>
+            <li><a href="mailto:zhenkyle@gmail.com">zhenkyle@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-2 column">
+          <ul>
+            <li>
+              <a href="https://github.com/">github</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">twitter</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col-3 column">
+          <p class="text">This my awesome blog.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
