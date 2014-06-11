@@ -38,3 +38,22 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+// Rescue themes
+.top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #FFFFFF, 0 16px 0 1px #FFFFFF, 0 22px 0 1px #FFFFFF;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    color: #FFFFFF;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 25px 0 0;
+    position: relative;
+}
