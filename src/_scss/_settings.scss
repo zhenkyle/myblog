@@ -7,7 +7,7 @@
 //
 
 // This is the default html and body font-size for the base rem value.
-// $rem-base: 16px;
+$rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
@@ -21,7 +21,7 @@
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
 // $base-font-size: 100%;
-
+$base-font-size: 100%;
 // The $base-font-size is 100% while $base-line-height is 150%
 // $base-line-height: 150%;
 
@@ -42,7 +42,9 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
+$body-bg: #fafafa;
 // $body-font-color: #222;
+$body-font-color: #333;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -57,6 +59,7 @@
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
+$primary-color:#F06B48;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -121,12 +124,16 @@
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
+$header-font-family: "Open Sans Condensed", sans-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
+$header-font-color: #333;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
+$header-top-margin: rem-calc(20);
+$header-bottom-margin: rem-calc(20);
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
@@ -175,6 +182,10 @@
 // $hr-border-style: solid;
 // $hr-border-color: #ddd;
 // $hr-margin: rem-calc(20);
+$hr-border-width: 1px;
+$hr-border-style: dotted;
+$hr-border-color: #999;
+$hr-margin: rem-calc(20);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;
@@ -1178,10 +1189,12 @@
 
 // Background color for the top bar
 // $topbar-bg-color: #333;
+$topbar-bg-color: #fafafa;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
+$topbar-height: 45px;
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
@@ -1190,27 +1203,38 @@
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
+$topbar-dropdown-bg: $topbar-bg-color;
 // $topbar-dropdown-link-color: #fff;
+$topbar-dropdown-link-color: #666;
 // $topbar-dropdown-link-bg: #333;
+$topbar-dropdown-link-bg: $topbar-bg-color;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
+$topbar-dropdown-toggle-color: #c6c6c6;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
+$topbar-link-color:#4d4d4d;
 // $topbar-link-color-hover: #fff;
+$topbar-link-color-hover: #000;
 // $topbar-link-color-active: #fff;
+$topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
+$topbar-link-color-active-hover: #000;
 // $topbar-link-weight: $font-weight-normal;
 // $topbar-link-font-size: rem-calc(13);
+$topbar-link-font-size: 1rem;
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-color-hover: #272727;
 // $topbar-link-bg-hover: #272727;
+$topbar-link-bg-hover: #eeeeee;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
+$topbar-link-font-family: $header-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
 
@@ -1226,6 +1250,7 @@
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
+$topbar-menu-link-font-size: 1rem;
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
