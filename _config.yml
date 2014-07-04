@@ -12,3 +12,7 @@ permalink: pretty
 # Added by ZK
 source: ./src
 destination: ./build
+
+
+kramdown:
+  input: GFM
