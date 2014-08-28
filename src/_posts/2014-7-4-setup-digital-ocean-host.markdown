@@ -5,11 +5,6 @@ date:   2014-06-05 12:18:02
 categories: 
 ---
 
-```
-abc
-abc
-```
-
 ###1、建立主机 ubuntu 14.04 32bit
 
 将ip地址映射到DNS

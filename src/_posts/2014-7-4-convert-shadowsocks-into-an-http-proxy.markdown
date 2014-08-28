@@ -21,7 +21,7 @@ gem install bundler
 wget www.google.com
 curl www.google.com
 
-git config --global http.proxy 127.0.0.1:8123
+git config --global http.proxy://127.0.0.1:8123
 git clone https://github.com/xxx/xxx.git
 git xxx
 git xxx
