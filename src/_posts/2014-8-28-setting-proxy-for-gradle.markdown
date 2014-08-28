@@ -8,7 +8,7 @@ categories: proxy
 ### About Gradle
 Gradle is a build automation tool. It combines the flexibility of `Ant` and the convention of `Maven`. 
 
-See [Gradle Home Page](http://http://www.gradle.org/) for details.
+See [Gradle Home Page](http://www.gradle.org/) for details.
 
 ### Setting http proxy for gradle by Command Line
 
