@@ -25,3 +25,7 @@ I can use maven command line to generate a maven project, the import the exsitin
 Use another way, use `Maven Eclipse Plugin (m-e-p)`. This one is a maven command line plugin, it is not compatible with m2e. Every time you change POM file, you should run this plugin to regenerate eclipse project file.
 
 See [Apache Maven Site](http://maven.apache.org/eclipse-plugin.html) for details.
+
+
+### m2e settings and howtos
+[m2e settings and howtos](http://blog.csdn.net/qjyong/article/details/9098213)

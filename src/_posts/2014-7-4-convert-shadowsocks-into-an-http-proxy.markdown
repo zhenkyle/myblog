@@ -2,7 +2,7 @@
 layout: post
 title:  "Convert shadowsocks into an http proxy"
 date:   2014-07-04 12:18:02
-categories: sublime_text
+categories: proxy
 ---
 
 ### On Windows

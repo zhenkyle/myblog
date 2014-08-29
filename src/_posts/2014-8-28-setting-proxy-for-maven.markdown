@@ -6,7 +6,7 @@ categories: proxy
 ---
 
 ### About Maven
-Maven is a software project management and comprehension tool. On the contrary, `Ant` is a build tools.
+Maven is a software project management and comprehension tool with dependency management. On the contrary, `Ant` is a build tools.
 
 [Apache Maven Project Home](http://maven.apache.org/)
 
