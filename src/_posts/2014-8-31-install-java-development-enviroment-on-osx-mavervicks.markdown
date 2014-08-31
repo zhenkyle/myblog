@@ -6,7 +6,7 @@ categories: java
 ---
 
 ### Install jdk 8u20 by hand
-Mac OSX 10.6 and before shipped with Java 6, OSX 10.7 and above doesn't shiped with Java.When execute `java -v`
+Mac OSX 10.6 and before shipped with Java 6, OSX 10.7 and above doesn't shiped with Java.When execute `java -version`
 command in Mavericks Terminal, a window popup, inform you that JDK is not installed , click on the "more information" 
 button, will take you to the Oarcle site to download the most current jdk package. The most current jdk version is `8u20`.
 
@@ -38,5 +38,15 @@ Then,  install java with the most current version (8u20 at this time)
 brew cask install java
 ```
 
-###Install other things
+### Install other things
+```
+brew install ant
+brew install maven
+```
 [Reference](http://derjan.io/blog/2013/11/25/setup-mac-for-development/)
+[Reference](http://ksmx.me/homebrew-cask-cli-workflow-to-install-mac-applications/)
+[Reference](http://www.yangzhiping.com/tech/homebrew-cask.html)
+[Reference](https://www.google.com.hk/search?q=home+brew+cask)
+
+### If need to install multiple java version
+[Reference](http://hanxue-it.blogspot.com/2014/05/installing-java-8-managing-multiple.html)
