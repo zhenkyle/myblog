@@ -60,3 +60,5 @@ brew install gradle
 use jenv
 
 [Reference](http://hanxue-it.blogspot.com/2014/05/installing-java-8-managing-multiple.html)
+
+[Reference](http://meng6.net/pages/computing/installing_and_configuring/installing_and_configuring_java_on_mac/#.VAK7r7ySymN)
