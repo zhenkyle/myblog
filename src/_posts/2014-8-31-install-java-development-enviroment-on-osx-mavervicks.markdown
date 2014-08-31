@@ -10,7 +10,7 @@ Mac OSX 10.6 and before shipped with Java 6, OSX 10.7 and above doesn't shiped w
 command in Mavericks Terminal, a window popup, inform you that JDK is not installed , click on the "more information" 
 button, will take you to the Oarcle site to download the most current jdk package. The most current jdk version is `8u20`.
 
-[Reference Orcale java mac FAQ](http://www.java.com/en/download/faq/java_mac.xml)
+[Reference: Orcale java mac FAQ](http://www.java.com/en/download/faq/java_mac.xml)
 
 [Reference](http://osxdaily.com/2013/11/01/install-java-os-x-mavericks/)
 
@@ -57,5 +57,6 @@ brew install gradle
 [Reference](https://www.google.com.hk/search?q=home+brew+cask)
 
 ### If need to install multiple java version
+use jenv
 
 [Reference](http://hanxue-it.blogspot.com/2014/05/installing-java-8-managing-multiple.html)
