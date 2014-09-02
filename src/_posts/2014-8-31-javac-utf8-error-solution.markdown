@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install java development enviroment on OSX Mavericks"
+title:  "Javac “编码 UTF8 的不可映射字符“ error solution"
 date:   2014-08-31 10:34:00
 categories: java
 ---
