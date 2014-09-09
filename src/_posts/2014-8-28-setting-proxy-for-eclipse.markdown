@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting proxy for Maven"
+title:  "Setting proxy for Eclipse"
 date:   2014-08-28 17:14:00
 categories: proxy
 ---

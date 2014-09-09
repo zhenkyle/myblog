@@ -26,8 +26,23 @@ git clone https://github.com/xxx/xxx.git
 git xxx
 git xxx
 git config --global --unset-all http.proxy
-
 ```
 
 ### On Linux
 [Reference](https://github.com/clowwindy/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy)
+
+
+### On OSX
+Recommend way to install polipo is via brew.
+
+When install complete, start polipo
+
+```
+polipo socksParentProxy=localhost:1080
+```
+
+Then you can use http_proxy with brew, by set http_proxy enviroment variable or just type:
+
+```
+http_proxy=http://127.0.0.1:8123 brew install xxxpackage
+```
