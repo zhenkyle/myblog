@@ -16,4 +16,5 @@ done
 
 ###参考
 [参考1](http://www.cnblogs.com/bamanzi/archive/2010/06/11/2547025.html)
+
 [参考2](http://demi-panda.com/2013/01/12/linux-encoding-convert/)
