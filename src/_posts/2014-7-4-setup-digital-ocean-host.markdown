@@ -60,6 +60,7 @@ sudo vi /etc/shadowsocks.json
 
 测试  ssserver -c /etc/shadowsocks.json
 
+
 配置服务器
 
 ~~~
@@ -70,7 +71,32 @@ apt-get install python-pip python-m2crypto python-gevent supervisor
 command=ssserver -c /etc/shadowsocks.json
 autorestart=true
 user=nobody
+~~~
+
+如果想用低于1024的端口，如443端口，需要安装authbind
+
+~~~
+audo apt-get install authbind
+sudo touch /etc/authbind/byport/443
+sudo chown nobody /etc/authbind/byport/443
+sudo chmod 755 /etc/authbind/byport/443
+/etc/supervisor/conf.d/shadowsocks.conf
+
+sudo vi /etc/shadowsocks.json
+
+{
+    "server_port":443,
+}
+
+[program:shadowsocks]
+command=authbind --deep ssserver -c /etc/shadowsocks.json
+
+~~~
+
+
 Add the following line into /etc/default/supervisor
+
+~~~
 ulimit -n 51200
 ~~~
 
@@ -79,8 +105,12 @@ Run
 ~~~
 service supervisor start
 supervisorctl reload
+~~~
+
+
 Control the shadowsocks process:
 
+~~~
 supervisorctl stop shadowsocks
 supervisorctl start shadowsocks
 ~~~
